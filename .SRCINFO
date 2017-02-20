@@ -1,0 +1,21 @@
+pkgbase = dmenu-lineheight-xyw
+	pkgdesc = A generic menu for X
+	pkgver = 4.6
+	pkgrel = 1
+	url = http://tools.suckless.org/dmenu/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = sh
+	depends = libxinerama
+	depends = libxft
+	depends = freetype2
+	provides = dmenu
+	conflicts = dmenu
+	source = http://dl.suckless.org/tools/dmenu-4.6.tar.gz
+	source = http://tools.suckless.org/dmenu/patches/dmenu-lineheight-4.6.diff
+	md5sums = 6fedf081133bc0725cb040b3b8ac3fac
+	md5sums = 910a3279e4e4b4007d345e8b572a5eec
+
+pkgname = dmenu-lineheight-xyw
+
